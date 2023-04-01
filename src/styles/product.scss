@@ -1,0 +1,55 @@
+.product-card{
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    &:hover{
+        .product-img{
+img{
+    &:nth-child(1){
+display: none;
+transition: 0.3s
+    }
+    &:last-child{
+        display: block;
+        transition: 0.3s
+    }
+}
+        }
+        
+    }
+        .action-bar{
+            right: 15px;
+            top:11%;
+        }
+    
+    h6{
+        color: #bf4800;
+        font-size: 13px;
+    }
+    h5{
+        font-size: 15px;
+        color: #131921;
+    }
+    .price{
+        font-size: 16px;
+        color: #1c1c1b
+    }
+
+    .wishlist-icon{
+top: 3%;
+right: 15px;
+    }
+    .product-img{
+        height: 270px;
+        img{
+            object-fit: contain;
+            &:last-child{
+                display: none;
+            }
+            transition: 0.3s;
+        }
+    }
+}
+.gap-15{
+    gap:15px;
+}

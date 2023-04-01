@@ -1,0 +1,74 @@
+
+// heder - top 
+
+.header-top-strip{
+    background-color: #131921;
+border-bottom: 1px solid #3b4149;
+}
+// heder upper
+.header-upper{
+    background-color: #131921;
+    .input-group-text{
+        background-color: #febd69;
+    }
+    .form-control:focus {
+        box-shadow: none;
+        border-color: inherit;
+    }
+    .header-upper-links{
+        Link{
+    height: 30px;
+    width: 30px;
+        }
+    }
+}
+.header-bottom{
+    background-color: #232f3e;
+    .menu-link{
+        a{
+            color:white;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.3;
+            text-transform: uppercase;
+
+        }
+    }
+    .dropdown{
+        button{
+            color:white;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.3;
+            text-transform: uppercase;
+        }
+      
+    }
+    .dropdown-menu{
+        background-color: white;
+       li{
+        a{
+            :hover{
+                color: #131921;
+            }
+        }
+       }
+  
+    }
+    
+}
+
+.gap-10{
+    gap: 10px;
+}
+.gap-15{
+    gap:15px
+}
+.gap-30{
+    gap:30px;
+}
+.gap-50{
+    gap:50px
+}
