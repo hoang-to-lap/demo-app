@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.scss";
+import {Helmet} from "react-helmet";
 import mainBanner from "../assets/images/main-banner-1.jpg";
 import catBAnner1 from "../assets/images/catbanner-01.jpg";
 import catBAnner2 from "../assets/images/catbanner-02.jpg";
@@ -25,9 +26,11 @@ import Marquee from "react-fast-marquee";
 import BlogCard from "../componets/blogcard";
 import ProductCard from "../componets/productcrad";
 import SpecialProduct from "../componets/specialproduct";
+import Meta from "../componets/meta";
 const Home = () => {
   return (
     <>
+<Meta title ="Home"/>
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">

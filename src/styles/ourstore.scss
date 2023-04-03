@@ -1,0 +1,53 @@
+.filter-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    .filter-title{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        color: #1c1c1b;
+        margin-bottom: 20px;
+    }
+    ul{
+        list-style: none;
+        font-size: 13px;
+        line-height: 30px;
+        color : #777777;
+        a{
+            color: #777777;
+        }
+    }
+    .sub-title{
+        font-size: 13px;
+        font-weight: 600;
+        color: #1c1c1b;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .form-check{
+        .form-check-label{
+            list-style: none;
+            font-size: 13px;
+            line-height: 30px;
+            color : #777777;
+        }
+        .form-check-input{
+            &:checked{
+                background-color: #febd69;
+            }
+            &:focus{
+                box-shadow: none;
+                border-color: indianred;
+            }
+        }
+    }
+    .form-control{
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+.gap-10{
+    gap:10px;
+}
